@@ -14,17 +14,32 @@ The [stocks data set](VBA_Challenge.xlsm) used in this analysis contains data on
 
 ### Results
 
-Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
+#### Stock Performance in 2017
+![Stocks Analysis Table for 2017](Resources/Extra/AllStocksAnalysis_Table_2017.PNG)
+
+In the above table, its clear that 2017 was overall a good year for the green energy stocks in this data set. DQ stocks was the highest performer with a 199.4% return, along with SEDG stocks following closely with a 184.5% return. Other two stocks that performed well were ENPH and FSLR, both with returns above 100%. 
+
+The stocks with the lowest return this year were AY, RUN and TERP with 8.9%, 5.5% and -7.2% relatively. 
+
+#### Stock Performace in 2018
+![Stocks Analysis Table for 2018](Resources/Extra/AllStocksAnalysis_Table_2018.PNG)
+
+Overall, the green energy stocks in this data set performed poorly in the year of 2018. The two stocks that did well in 2018 are ENPH and RUN, with a return of 81.9% nd 84% relatively. These two were the only ones that had positive returns. 
+
+SEDG stocks dropped to -7.8% return in the year 2018 in contrast to its 184% return in 2017. DQ dropped to -62.6% return which is a stark contrast to its performace in the year 2017. It was also the worst performing stock of the year 2018.
+
 
 #### Comparison of Execution Times of Original Script and Refactored Script
-![Execution Time for 2017 Analysis Using Refactored Script](Resources/Extra/VBA_Original_2017.PNG)
-![Execution Time for 2018 Analysis Using Refactored Script](Resources/Extra/VBA_Original_2018.PNG)
 
-![Execution Time for 2017 Analysis Using Refactored Script](Resources/VBA_Challenge_2017.PNG)
-![Execution Time for 2018 Analysis Using Refactored Script](Resources/VBA_Challenge_2018.PNG)
- 
+Original | Refactored
+---------|-----------
+![Execution Time for 2017 Analysis Using Original Script](Resources/Extra/VBA_Original_2017.PNG) |  ![Execution Time for 2017 Analysis Using Refactored Script](Resources/VBA_Challenge_2017.PNG)
+![Execution Time for 2018 Analysis Using Original Script](Resources/Extra/VBA_Original_2018.PNG) |![Execution Time for 2018 Analysis Using Refactored Script](Resources/VBA_Challenge_2018.PNG)
 
-### Summary
+The refactored code significantly reduced the time required to execute the macros. The code executed roughly 0.65 seconds faster than the original code. 
+
+### Advantages and Disadvantages of Refactored Code
+
 
 What are the advantages or disadvantages of refactoring code?
 How do these pros and cons apply to refactoring the original VBA script? 
