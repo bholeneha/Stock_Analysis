@@ -31,6 +31,23 @@ SEDG stocks dropped to -7.8% return in the year 2018 in contrast to its 184% ret
 
 #### Comparison of Execution Times of Original Script and Refactored Script
 
+The code was refactored to improve efficiency and automate analyses to potentially use larger data sets by improving the logic of the code. 
+
+Original | Refactored
+---------|-----------
+![Origical Code](Resources/Extra/Original_NestedLoop.PNG) | ![Refactored Code](Resources/Extra/Refactored_Loop.PNG)
+Nested loops generally make a code's performance inefficient and slow.  
+The original code had a nested loop which was simplified in the refactored version using arrays.
+
+![Refactored Arrays](Resources/Extra/Refactored_Arrays.PNG)
+
+Arrays were used to store values for tickers, tickerVolumes, tickerStartingPrices and tickerEndingPrices. A variable, tickerIndex, was used to access the correct index across all four arrays. 
+
+![Refactored Output](Resources/Extra/Refactored_Output.PNG)
+
+A for loop was used to output all the stored values at the end of the code. 
+
+
 Original | Refactored
 ---------|-----------
 ![Execution Time for 2017 Analysis Using Original Script](Resources/Extra/VBA_Original_2017.PNG) |  ![Execution Time for 2017 Analysis Using Refactored Script](Resources/VBA_Challenge_2017.PNG)
@@ -39,6 +56,14 @@ Original | Refactored
 The refactored code significantly reduced the time required to execute the macros. The code executed roughly 0.65 seconds faster than the original code. 
 
 ### Advantages and Disadvantages of Refactored Code
+
+#### Advantages of Refactoring the Code
+
+Refactoring the code helps the code look cleaner, easy to maintain, makes the code more efficient to run. 
+
+#### Disadvantages of Refactoring the Code
+
+Refactoring the code maybe time consuming, makes it more complex and does not improve the code's functionality. 
 
 
 What are the advantages or disadvantages of refactoring code?
