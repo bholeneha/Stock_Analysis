@@ -70,7 +70,7 @@ Refactoring the code maybe time consuming and does not improve the code's functi
    | Original Code    |The pros of the original code was that the code worked. The original code also had several comments to describe the lines of code. |The cons of the original code was that it was inefficient and slow. It was also difficult to understand since a nested loop was used. It also took more lines of code. |
    | Refactored Code|As discussed in the Results section above, the refactored code was efficient and fast. It was easier to understand since it was simplified into smaller parts. Less lines of code were used. Many comments were used to explain the code. | The code was time consuming to refactor. An 2 - 3 hours of time went into refactoring the code which resulted in 0.65 seconds of gain in execution time of the code. Which may or may not be significant depending on the purpose of the code. Secondly, the refactoring resulted in the exact same output as the original code, not adding to the functionality of the code. 
 
-In conclusion, whether or not a code requires refactoring needs to be evaluated. Although, refactoring might be a good idea most of the time, sometimes this time consuming task may turn out expensive.   
+In conclusion, whether or not a code requires refactoring needs to be evaluated. Although, refactoring might be a good idea most of the time, sometimes this time consuming task may turn out expensive.    
 
 
 
