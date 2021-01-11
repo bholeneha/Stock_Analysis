@@ -33,9 +33,12 @@ SEDG stocks dropped to -7.8% return in the year 2018 in contrast to its 184% ret
 
 The code was refactored to improve efficiency and automate analyses to potentially use larger data sets by improving the logic of the code. 
 
-Original | Refactored
----------|-----------
-![Origical Code](Resources/Extra/Original_NestedLoop.PNG) | ![Refactored Code](Resources/Extra/Refactored_Loop.PNG)
+Original | Refactored|
+---------|-----------|
+![Origical Code](Resources/Extra/Original_NestedLoop.PNG) | ![Refactored Code](Resources/Extra/Refactored_Loop.PNG)|
+
+
+
 Nested loops generally make a code's performance inefficient and slow. The original code had a nested loop which was simplified in the refactored version using arrays. The if statements in the for loop were also simplified and used less lines of code. 
 
 ![Refactored Arrays](Resources/Extra/Refactored_Arrays.PNG)
